@@ -1,0 +1,34 @@
+.body{
+    background-color: #9999;
+    height: 100%;
+    width: 100%;
+    padding: 2%;}
+
+ol {
+    list-style: none;
+    padding: 40px 0px;}
+
+.main{
+    background-color: pink;
+    border: 15px solid;
+    border-color: yellow;
+    width: 50%;
+    height: auto;
+    padding: 0% 5%;}
+
+.area1, .area2, .area3{
+    color: white;
+    width: 70px;}
+
+.area1{
+    text-decoration: none;
+    background-color: black;
+    opacity: 0.6;}
+
+.area2{
+    text-decoration: none;
+    background: linear-gradient(to right,blue,#DDFFDD);}
+
+.area3{
+    text-decoration: none;
+    background: linear-gradient(to left top,red,orange,yellow);}

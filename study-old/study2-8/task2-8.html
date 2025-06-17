@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>CSS課題8</title>
+    <link rel="stylesheet" href="task2-8.css">
+   </head>
+   <body>
+     <header></header>
+     <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+     </div>
+
+     <nav class="navi">
+      <ul class="menu">
+        <li><a href="#">summer</a></li>
+        <li><a href="#">autumn</a></li>
+        <li><a href="#">winter</a></li>
+      </ul>
+      </nav>
+
+      <div class="img">
+      <div class="text">summer</div>
+      <img src="summer.jpg" alt="夏">
+      <div class="text">autumn</div>
+      <img src="autumn.jpg" alt="秋">
+      <div class="text">winter</div>
+      <img src="winter.jpg" alt="冬">
+      </div>
+
+      <script>
+        document.querySelector('.hamburger').addEventListener
+        ('click',function(){
+          this.classList.toggle('active');
+          document.querySelector('.navi').classList.toggle
+          ('active');
+        });
+      </script>
+
+   </body>
+   </html>

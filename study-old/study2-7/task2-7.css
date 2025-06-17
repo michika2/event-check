@@ -1,0 +1,25 @@
+.box1{
+    width: 400px;
+    height: 400px;
+    background-color: skyblue;
+    transition: background 2s linear;
+}
+
+.box1:hover{
+    background-color: violet;
+    transition: background 2s linear;
+}
+
+.box2{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin-top: 30px;
+    transition: all 2s linear;
+}
+
+.box2:hover{
+    width: 400px;
+    transform: rotate(180deg);
+    transition: all 2s linear;
+}

@@ -1,0 +1,124 @@
+header{
+    background-color: skyblue;
+    height: 100px;
+}
+
+.logo{
+    width: 110px;
+    height: 110px;
+}
+
+.menu li{
+    list-style: none;
+    position: absolute;
+    top: 48px;
+}
+
+.menu li:nth-child(1){
+    right: 450px;
+}
+
+.menu li:nth-child(2){
+    right: 350px;
+}
+
+.menu li:nth-child(3){
+    right: 250px;
+}
+
+.menu li:nth-child(4){
+    right: 150px;
+}
+
+.menu li:nth-child(5){
+    right: 50px;
+}
+
+body{
+    background-image: url(img/EVeBJTDUEAAVPNS.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.h2-1{
+    background-color: white;
+    width: 125px;
+}
+
+.h2-2{
+    background-color: white;
+    width: 146px;
+}
+
+.lanch-time{
+    background-color: white;
+    width: 150px;
+}
+
+.dinner-time{
+    background-color: white;
+    width: 168px;
+}
+
+.top-content{
+    background-color: bisque;
+    height: 500px;
+    display: flex;
+}
+
+.image1{
+    background-color: white;
+    width: 350px;
+    height: 320px;
+    margin-left: 120px;
+    margin-top: 70px;
+}
+
+.image2{
+    background-color: white;
+    width: 350px;
+    height: 320px;
+    margin: 0 100px;
+    margin-top: 70px;
+}
+
+.image3{
+    background-color: white;
+    width: 350px;
+    height: 320px;
+    margin-top: 70px;
+}
+
+.left-text{
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+.center-text{
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+.right-text{
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.bottom-content{
+    background-color: pink;
+    height: 500px;
+    display: flex;
+}
+
+.texts{
+    background-color: white;
+    height: 500px;
+}
+
+.events{
+    padding-top: 13px;
+}
+
+.day{
+    color: #DAA520;
+}
